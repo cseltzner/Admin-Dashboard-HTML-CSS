@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-primary-color: #1992D4;
+    --light-secondary-color: #FACC15;
+    --light-primary-color: #fff;
+    --light-background-color: #E2E8F0;
+    --light-text-on-primary-color: #fff;
+    --light-text-on-surface-color: #636363;
+    --light-text-on-surface-color-strong: #000;
+}
