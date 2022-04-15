@@ -132,10 +132,12 @@ body {
     background-color: var(--light-primary-color);
     height: calc(100% / 2.2);
     width: 160px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
 }
 
 .action-bar button:hover{
     background-color: var(--light-primary-color-variant);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.16), 0 2px 2px rgba(0,0,0,0.23);
 }
 
 button.new {
