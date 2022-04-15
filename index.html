@@ -5,8 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="app-bar">
+        <img src="icons/search.svg" alt="search icon" id="search-icon">
+        <input type="search" name="search-bar" id="search-bar">
+        <img src="icons/bell.svg" alt="notifications "id="notification-bell">
+        <img src="icons/profile/profile-basic-male.png" alt="profile icon" id="profile-icon">
+        <div class="app-bar-username">Chase Seltzner</div>
+    </div>
+    <div class="action-bar">
+        <img src="icons/profile/profile-basic-male.png" alt="profile image" id="profile-image">
+        <div class="greetings-container">
+            <p>Welcome back,</p>
+            <p>Chase Seltzner (@cseltzner)</p>
+        </div>
+        <button class="new">New</button>
+        <button class="upload">Upload</button>
+        <button class="share">Share</button>
+    </div>
+    <div class="side-bar"></div>
+    <main>
+        <div class="projects-col">
+            <h2>Your projects</h2>
+            <div class="projects-grid">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+                <div class="card">Card 4</div>
+                <div class="card">Card 5</div>
+                <div class="card">Card 6</div>
+            </div>
+        </div>
+        <div class="misc-col">
+            <h2 class="header_1">Announcements</h2>
+            <div class="announcements-grid">
+                <div class="card">Announcement Card</div>
+            </div>
+            <h2 class="header_2">Trending</h2>
+            <div class="trending-grid">
+                <div class="profile-card card-1">1</div>
+                <div class="profile-card card-2">2</div>
+                <div class="profile-card card-3">3</div>
+                <div class="profile-card card-4">4</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
